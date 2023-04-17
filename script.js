@@ -1,18 +1,3 @@
-// function myFunction() {
-//   var x = document.getElementById("myLinks");
-//   if (x.style.display === "block") {
-//     x.style.display = "none";
-//   } else {
-//     x.style.display = "block";
-//   }
-// }
-
-function toggleNav() {
-  var nav = document.querySelector("nav");
-  nav.classList.toggle("nav-collapsed");
-  nav.classList.toggle("nav-expanded");
-}
-
 const services = [
   { name: "Landscape Maintenance (pruning / weed removal)", price: 10 },
   { name: "Treatment & fertilization", price: 0.003 },
