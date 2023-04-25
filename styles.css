@@ -120,6 +120,21 @@ header {
     display: none;
   }
 }
+
+@media only screen and (max-width: 390px) {
+  .logo img {
+    height: 35px;
+  }
+  tbody td {
+    font-size: 12px;
+  }
+  thead th {
+    font-size: 12px;
+  }
+  tbody td input[type="text"] {
+    font-size: 12px;
+  }
+}
 .hero-image {
   background-image: url(images/anthony-fomin-Apips1tJsXo-unsplash.jpg);
   background-color: #cccccc;
@@ -451,4 +466,10 @@ input[type="submit"]:hover {
 
 .social-links a:hover {
   color: goldenrod;
+}
+
+/* <------------------------------> */
+
+tfoot th {
+  padding-bottom: 20px;
 }
