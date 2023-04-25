@@ -119,11 +119,14 @@ header {
   .profile-pic {
     display: none;
   }
+  .services-container {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 390px) {
   .logo img {
-    height: 35px;
+    width: 125px;
   }
   tbody td {
     font-size: 12px;
@@ -133,6 +136,9 @@ header {
   }
   tbody td input[type="text"] {
     font-size: 12px;
+  }
+  .services-container {
+    flex-direction: column;
   }
 }
 .hero-image {
@@ -245,11 +251,6 @@ section#Testimonial_Pg {
   flex: 1;
   border: 3px solid #eebb4d;
 }
-
-/* .column img:hover {
-  transform: scale(1.05);
-  transition: transform 0.4s ease-in-out;
-} */
 
 .serv-description {
   text-align: center;
