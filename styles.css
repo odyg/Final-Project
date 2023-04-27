@@ -35,7 +35,7 @@ header {
   display: block;
   color: #fefefe;
   font-size: 15px;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-radius: 5px;
   transition: 0.2s;
   margin: 0 5px;
@@ -70,7 +70,7 @@ header {
     padding: 0 30px;
   }
   .nav-bar ul li a {
-    font-size: 12px;
+    font-size: 11px;
   }
   .services-container {
     padding: 10px 40px 10px 40px;
@@ -100,7 +100,7 @@ header {
     z-index: 999;
   }
   .nav-bar.active {
-    height: 250px;
+    height: 290px;
   }
   .nav-bar ul {
     display: block;
@@ -207,7 +207,9 @@ section#Services {
   color: #184d47;
   margin-top: 120px;
 }
-
+section#Aboutus_Pg,
+section#Estimate_Pg,
+section#Contact_Pg,
 section#Services_Pg,
 section#Testimonial_Pg {
   text-align: center;
@@ -217,18 +219,25 @@ section#Testimonial_Pg {
   z-index: 0;
 }
 
-.doing_right {
+.contact,
+.estimate,
+.moreaboutus,
+.doing_right,
+.testimonial {
   width: 70%;
   margin: 0 auto;
 }
 
-.doing_right p {
+.contact p,
+.estimate p,
+.doing_right p,
+.testimonial p {
   line-height: 1.5;
   margin-bottom: 5px;
 }
 
-.serv-h3 {
-  margin-top: 40px;
+.serv {
+  margin: 40px 0 20px 0;
   font-size: 30px;
 }
 
@@ -344,12 +353,6 @@ section#Service_CTA {
 
 /* <---------------------------------> */
 
-section#About-Me {
-  background-color: #eebb4d;
-  color: #fff;
-  min-height: 80vh;
-}
-
 .profile-pic {
   border-radius: 20%;
   height: 200px;
@@ -373,7 +376,7 @@ section#About-Me {
   text-align: left;
   margin: 0 auto;
   width: 75%;
-  padding: 100px 0 20px;
+  padding: 40px 0 60px;
 }
 
 footer p {
@@ -448,7 +451,7 @@ input[type="submit"]:hover {
 /* <---------------------------------> */
 
 .address {
-  padding-bottom: 30px;
+  padding: 10px 0 30px 0;
 }
 
 .social-links {
@@ -473,4 +476,18 @@ input[type="submit"]:hover {
 
 tfoot th {
   padding-bottom: 20px;
+}
+
+footer {
+  background-color: #eebb4d;
+  color: #fff;
+}
+
+.doingItRightBottom p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.doingItRightBottom {
+  width: 70%;
+  margin: 0 auto;
 }
