@@ -162,6 +162,9 @@ header {
   color: white;
   z-index: 0;
 }
+.hero-text h1 {
+  font-size: 50px;
+}
 
 .image-container {
   position: relative;
